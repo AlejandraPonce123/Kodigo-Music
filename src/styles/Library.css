@@ -1,0 +1,57 @@
+.library-container {
+    padding: 2rem;
+    background-color: #121212;
+    color: white;
+  }
+  
+  .artists-section, .albums-section {
+    margin-bottom: 2rem;
+  }
+  
+  .artists-section h2, .albums-section h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .artists-grid, .albums-grid {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+  }
+  
+  .artist-card, .album-card {
+    text-align: center;
+    width: 120px;
+  }
+  
+  .artist-card img, .album-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+  }
+  
+  .artist-card h3, .album-card h3 {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  .artist-card p, .album-card p {
+    font-size: 0.9rem;
+    color: #b3b3b3;
+  }
+  
+  .show-all-button {
+    background: none;
+    border: none;
+    color: #1DB954;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    text-decoration: underline;
+  }
+  .show-all-button:hover {
+    color: #1ed760;
+  }
+  

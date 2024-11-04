@@ -1,0 +1,58 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: white;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #191414; 
+    padding: 10px 20px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); 
+  }
+  
+  nav a {
+    color: #b3b3b3; 
+    text-decoration: none; 
+    font-size: 16px; 
+    margin: 0 15px; 
+    transition: color 0.3s; 
+  }
+  
+  nav a:hover {
+    color: #1db954; 
+  }
+  
+  nav a.active {
+    color: #1db954; 
+    font-weight: bold; 
+  }
+  
+  h1, h2 {
+    margin: 1rem 0;
+  }
+  
+  .home {
+    padding: 2rem;
+  }
+  
+  .albums, .playlists {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1rem;
+    
+  }
+  
+  .player {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: #282c34;
+    text-align: center;
+  }
+  
